@@ -27,7 +27,7 @@ load_dotenv(BASE_DIR.joinpath('.env'))
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 DEBUG = os.getenv('DEBUG', "False").lower() in [
-    'true', '1', 't', 'y', 'yes', 'yeah', 'yup', 'certainly', 'uh-huh']
+    'true', '1', 't', 'y', 'yes', ]
 
 print('type of DEBUG:', DEBUG)
 
