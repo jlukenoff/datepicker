@@ -29,8 +29,6 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = os.getenv('DEBUG', "False").lower() in [
     'true', '1', 't', 'y', 'yes', ]
 
-print('type of DEBUG:', DEBUG)
-
 ALLOWED_HOSTS = []
 
 
